@@ -47,7 +47,7 @@ class MyHomePage extends StatelessWidget {
           builder: (context, membersProvider, child) {
             // Example: Display something from MembersProvider
             return Text(
-              'Members: ${membersProvider.members?.length ?? 0}',
+              'Members: ${membersProvider.members.length}',
               style: const TextStyle(fontSize: 20),
             );
           },
